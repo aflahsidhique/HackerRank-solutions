@@ -3,10 +3,10 @@
 
 ### The miniMaxSum function takes an array (arr) as input and performs the following steps:
 
-#### Sorts the array in ascending order using the sort() method.
-#### Calculates the sum of all elements except the last one using the sum() function and slicing (arr[:-1]).
-#### Calculates the sum of all elements except the first one using the sum() function and slicing (arr[1:]).
-#### Prints the minimum sum and maximum sum.
+#### 1.Sorts the array in ascending order using the sort() method.
+#### 2.Calculates the sum of all elements except the last one using the sum() function and slicing (arr[:-1]).
+#### 3.Calculates the sum of all elements except the first one using the sum() function and slicing (arr[1:]).
+#### 4.Prints the minimum sum and maximum sum.
 
 #### code with an example. Consider the following input:
 
@@ -27,7 +27,7 @@ if __name__ == '__main__':
 #### ```sum(arr[1:])```: Calculate the maximum sum by removing first element of array: 2+3+4+5= 14
 #### Print the minimum sum: 10
 #### Print the maximum sum: 14
- ###Expected Output
+ ### Expected Output
  ```
  5 2 3 4 1
  10 14
