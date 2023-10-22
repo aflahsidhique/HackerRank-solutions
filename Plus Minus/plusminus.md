@@ -13,7 +13,9 @@ def plusMinus(arr):
     print(f"{countZero/n:.6f}")
 ```
  ```sum(1 for num in arr if num > 0)```: This expression uses a generator expression to count the number of positive elements in the array. It iterates over each element num in the array arr and increments the count by 1 if the element is greater than 0.
+
  ```sum(1 for num in arr if num < 0)```: This expression counts the number of negative elements in the array using a similar approach as above, but checks if the element is less than 0.
+
  ```n - countPositive - countNegative```: This expression calculates the number of zero elements in the array by subtracting the counts of positive and negative elements from the total number of elements in the array.
 
 
@@ -26,7 +28,9 @@ arr = list(map(int, input().split()))
 
 plusMinus(arr)
 ```
- In this part, the user is prompted to enter the number of elements in the array (n). Then, the user is asked to enter the elements of the array separated by spaces. The map function is used to convert the input string into a list of integers. Finally, the plusMinus function is called with the array as the argument.
+ In this part, the user is prompted to enter the number of elements in the array (n). Then, the user is asked to enter the elements of the array separated by spaces. 
+ 
+ The map function is used to convert the input string into a list of integers. Finally, the plusMinus function is called with the array as the argument.
 
 #### Sample input & output
 input
