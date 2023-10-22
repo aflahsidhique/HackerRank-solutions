@@ -1,4 +1,4 @@
-# Diagonal Difference
+# [Diagonal Difference](https://www.hackerrank.com/challenges/diagonal-difference/problem?isFullScreen=true)
 In this problem, we have to calculate the diagonal difference in a square matrix. The diagonal difference is the absolute difference between the sums of its diagonals.
 
 The diagonalDifference function takes a square matrix as input and calculates the diagonal difference.
