@@ -39,7 +39,7 @@ input
 4 5 6
 7 8 9
 ```
-prompts the user to enter the size of the matrix (n) and then takes n lines of input, each containing n space-separated integers.
+ the size of the matrix = 3
 
 The primary diagonal elements are 1, 5, and 9, and their sum is 1 + 5 + 9 = 15. 
 
