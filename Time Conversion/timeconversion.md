@@ -12,9 +12,13 @@ def timeConversion(s):
 ```
 
  The timeConversion function takes a time string s as input. Here's how it works:
+
  1.The function checks if the last two characters of the input string s are "PM". If they are, it means the time is in the afternoon or evening.
+
  2.If the first two characters of the input string s are not "12", the function adds 12 to the hours portion of the time string to convert it to 24-hour format. It then concatenates the modified hours with the rest of the time string.
+
  3.If the last two characters of the input string s are not "PM", it means the time is in the morning.
+ 
  4.If the first two characters of the input string s are "12", the function replaces them with "00" to convert the time to 24-hour format.
  5.Finally, the function returns the converted time string without the last two characters (AM/PM).
 
