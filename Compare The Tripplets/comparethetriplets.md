@@ -1,4 +1,4 @@
-# Comparing Triplets in Python
+# Compare The Triplets](https://www.hackerrank.com/challenges/compare-the-triplets/problem?isFullScreen=true)
 In this code example, we have a function called ```compareTriplets``` that takes in two lists, a and b, representing the ratings of two people in three different categories. The function compares the ratings of each category and returns the number of points each person has earned.
 
 ```python
