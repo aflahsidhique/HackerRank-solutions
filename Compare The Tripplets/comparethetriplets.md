@@ -13,11 +13,17 @@ def compareTriplets(a, b):
 
 ```
  The ```compareTriplets``` function is defined, which takes in two lists, a and b.
+
  Inside the function, a ```list called points``` is initialized with two elements, representing the ```points earned by Alice and Bob```.
+
  A for loop is used to iterate over the ratings in the a and b lists.
+
 Inside the loop, an if statement is used to compare the ratings of each category.
+
 If ``` a is greater than b```, ```Alice earns a point```.
+
 If  ```a is less than  b```, ```Bob earns a point```.
+
 Finally, the ```points list is returned```.
 
 ```python

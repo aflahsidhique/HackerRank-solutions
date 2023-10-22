@@ -15,11 +15,17 @@ print(count_Oranges)
 ```
 
 #### countApplesAndOranges has the following parameter(s):
+
 s: integer, starting point of Sam's house location.
+
 t: integer, ending location of Sam's house location.
+
 a: integer, location of the Apple tree.
+
 b: integer, location of the Orange tree.
+
 apples: integer array, distances at which each apple falls from the tree.
+
 oranges: integer array, distances at which each orange falls from the tree.
 
 ##### The code uses list comprehension and the sum() function to count the number of apples and oranges that fall within the given range. It iterates over the apples and oranges lists, checking if the sum of the tree position and the distance of the fruit from the tree falls within the range s to t. If it does, it increments the count by 1.

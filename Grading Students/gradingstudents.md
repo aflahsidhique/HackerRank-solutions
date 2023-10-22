@@ -14,10 +14,15 @@ for _ in range(n):
 ```
 
 It takes input for the number of grades to be entered as n.
+
  It uses a for loop to iterate over the range of the number of grades.
+
  Inside the loop, it takes input for each grade.
+
  It checks if the grade is greater than or equal to 38 and if the remainder of the grade divided by 5 is greater than or equal to 3.
+
  If the condition is true, it rounds the grade by adding the difference between 5 and the remainder of the grade divided by 5.
+ 
  Finally, it prints the rounded grade.
 
 ```
