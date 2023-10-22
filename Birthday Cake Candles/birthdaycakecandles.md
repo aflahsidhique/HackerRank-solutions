@@ -1,4 +1,4 @@
-# Counting Birthday Cake Candles
+# [Birthday Cake Candles](https://www.hackerrank.com/challenges/birthday-cake-candles/problem?isFullScreen=true)
 For this problem, we write a function called birthdayCakeCandles that takes in a list of candle heights as input and returns the count of the tallest candles. The code also includes an input section where the user can provide the number of candles and their heights.
 
 ```python
