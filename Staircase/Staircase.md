@@ -1,9 +1,7 @@
 # Creating a Staircase Pattern in Python
-##  Concepts
+
 #### To create the staircase pattern, we will use nested loops and the print() function in Python. The outer loop will iterate over the number of steps, and the inner loops will handle the printing of spaces and "#" symbols.
 
-## Code Structure
-#### The code provided consists of a function called ``` print_stair() ``` and a main block that prompts the user to enter the number of steps and calls the print_stair() function.
 
 ```python
 def print_stair(n):
