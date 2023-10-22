@@ -13,13 +13,13 @@ def compareTriplets(a, b):
     return points
 
 ```
-#### The compareTriplets function is defined, which takes in two lists, a and b.
-#### Inside the function, a list called points is initialized with two elements, representing the points earned by alice and bob.
+#### The ```compareTriplets``` function is defined, which takes in two lists, a and b.
+#### Inside the function, a ```list called points``` is initialized with two elements, representing the ```points earned by Alice and Bob```.
 #### A for loop is used to iterate over the ratings in the a and b lists.
 #### Inside the loop, an if statement is used to compare the ratings of each category.
-#### If the rating in list a is greater than the rating in list b, Alice earns a point.
-#### If the rating in list a is less than the rating in list b, Bob earns a point.
-#### Finally, the points list is returned.
+#### If ``` a is greater than b```, ```Alice earns a point```.
+#### If  ```a is less than  b```, ```Bob earns a point```.
+#### Finally, the ```points list is returned```.
 
 ```python
 a = list(map(int, input().split()))
@@ -27,4 +27,4 @@ b = list(map(int, input().split()))
 result = compareTriplets(a, b)
 print(*result)
 ```
-#### In this part, we take input from the user for the ratings of the two people. The ratings are entered as space-separated values. The map function is used to convert the input values to integers and store them in lists a and b. Then, we call the compareTriplets function with the a and b lists as arguments. The result is stored in the result variable. Finally, we use the print function with the * operator to unpack the elements of the result list and print them.
+#### In this part, we take ```input from the user``` for the ratings of the two people. The ratings are entered as space-separated values. The map function is used to convert the input values to integers and store them in lists a and b. Then, we call the compareTriplets function with the a and b lists as arguments. The result is stored in the result variable. Finally, we use the print function with the * operator to unpack the elements of the result list and print them.
