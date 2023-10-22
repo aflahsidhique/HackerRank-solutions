@@ -28,3 +28,17 @@ if __name__ == "__main__":
 
 #### In the main block, the user is prompted to enter the number of steps. The input is converted to an integer using the int() function. Then, the print_stair() function is called with the user-provided input.
 
+#### Sample input & output
+##### input
+```
+Enter the number of steps: 5
+```
+##### output
+```
+    # 
+   ##
+  ###
+ ####
+#####
+```
+

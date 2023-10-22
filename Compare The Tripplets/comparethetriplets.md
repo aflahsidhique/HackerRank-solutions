@@ -28,3 +28,15 @@ result = compareTriplets(a, b)
 print(*result)
 ```
 #### In this part, we take ```input from the user``` for the ratings of the two people. The ratings are entered as space-separated values. The map function is used to convert the input values to integers and store them in lists a and b. Then, we call the compareTriplets function with the a and b lists as arguments. The result is stored in the result variable. Finally, we use the print function with the * operator to unpack the elements of the result list and print them.
+
+
+#### Sample input & output
+##### input
+```
+4 5 6
+7 5 3
+```
+##### output
+```
+1 1
+```

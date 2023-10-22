@@ -35,3 +35,18 @@ except ValueError:
 #### After obtaining the user input, we call the calculate_sum function with the arr list as the argument. The returned sum is stored in the result variable. Finally, we print the sum of the array using an f-string.
 
 #### In case the user enters invalid numbers for the array elements (non-integer values), a ValueError exception is raised, and an error message is displayed.
+
+#### Sample input & output
+##### input
+```
+Enter the number of elements in the array: 5
+Enter element 1: 1
+Enter element 2: 2
+Enter element 3: 3
+Enter element 4: 4
+Enter element 5: 5
+```
+##### output
+```
+The sum of the array is: 15
+```

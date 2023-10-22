@@ -27,8 +27,13 @@ if __name__ == '__main__':
 #### ```sum(arr[1:])```: Calculate the maximum sum by removing first element of array: 2+3+4+5= 14
 #### Print the minimum sum: 10
 #### Print the maximum sum: 14
- ### Expected Output
- ```
- 5 2 3 4 1
- 10 14
- ```
+
+#### Sample input & output
+##### input
+```
+1 3 5 7 2 6
+```
+##### output
+```
+17 23
+```

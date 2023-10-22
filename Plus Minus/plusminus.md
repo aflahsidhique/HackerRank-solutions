@@ -28,3 +28,16 @@ arr = list(map(int, input().split()))
 plusMinus(arr)
 ```
 #### In this part, the user is prompted to enter the number of elements in the array (n). Then, the user is asked to enter the elements of the array separated by spaces. The map function is used to convert the input string into a list of integers. Finally, the plusMinus function is called with the array as the argument.
+
+#### Sample input & output
+##### input
+```
+3
+5 -3 2
+```
+##### output
+```
+0.666667
+0.333333
+0.000000
+```

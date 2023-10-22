@@ -26,3 +26,13 @@ print(result)
 #### First code prompts the user to enter a time string using the input() function and stores it in the variable s. 
 #### It calls the timeConversion function with s as the argument and assigns the returned value to the variable result. 
 #### Finally, it prints the converted time string using the print() function.
+
+#### Sample input & output
+##### input
+```
+07:05:45PM
+```
+##### output
+```
+19:05:45
+```
