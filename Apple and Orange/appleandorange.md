@@ -1,4 +1,4 @@
-# Apples and Oranges
+# [Apples and Oranges](https://www.hackerrank.com/challenges/apple-and-orange/problem?isFullScreen=true)
 In this code, we are given the coordinates of a house and the positions of apple and orange trees. We need to count the number of apples and oranges that fall within a certain range of the house.
 
 ```python
