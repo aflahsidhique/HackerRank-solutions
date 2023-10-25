@@ -11,8 +11,8 @@ To solve this problem, we need to iterate through the array and calculate the to
 3.We initialize the variable left_sum to 0, which will keep track of the sum of elements to the left of the current element.
 
 4.We iterate through the array using a for loop and perform the following steps:
-> Check if the left sum multiplied by 2 is equal to the total sum minus the current element. If it is, we have found a balanced sum and we return "YES".
-> Add the current element to the left sum.
+> 1.Check if the left sum multiplied by 2 is equal to the total sum minus the current element. If it is, we have found a balanced sum and we return "YES".
+> 2.Add the current element to the left sum.
 
 5.If we finish iterating through the array without finding a balanced sum, we return "NO".
 
