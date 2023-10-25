@@ -27,12 +27,42 @@ To solve this problem, we need to iterate through the array and calculate the to
 Code Examples
 Here is an example of how to use the balancedSums function:
 
-language-python
- Copy code
-arr = [1, 2, 3, 4, 5]
-result = balancedSums(arr)
-print(result)
-Output:
+```python
+def balancedSums(arr):
+    total = sum(arr)
+    left_sum = 0
+    
+    for num in arr:
+        if left_sum * 2 == total - num:
+            return "YES"
+        left_sum += num
+    
+    return "NO"
 
+if __name__ == '__main__':
+    T = int(input().strip())
+
+    for _ in range(T):
+        n = int(input().strip())
+        arr = list(map(int, input().split()))
+        result = balancedSums(arr)
+        print(result)
+
+```
+#### Sample input & output
+input
+```
+2
+3
+1 2 3
+4
+1 2 3 3 
+```
+
+output
+```
 NO
-In this example, the array [1, 2, 3, 4, 5] does not have any element with a balanced sum, so the output is "NO".
+YES
+```
+For the first test case, no such index exists.
+For the second test case,arr[0]+arr[1]=arr[3] , therefore index  satisfies the given conditions.
