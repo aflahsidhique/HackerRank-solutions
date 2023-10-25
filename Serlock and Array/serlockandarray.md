@@ -12,6 +12,7 @@ To solve this problem, we need to iterate through the array and calculate the to
 
 4.We iterate through the array using a for loop and perform the following steps:
 > 1.Check if the left sum multiplied by 2 is equal to the total sum minus the current element. If it is, we have found a balanced sum and we return "YES".
+
 > 2.Add the current element to the left sum.
 
 5.If we finish iterating through the array without finding a balanced sum, we return "NO".
