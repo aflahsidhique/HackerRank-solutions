@@ -65,4 +65,5 @@ NO
 YES
 ```
 For the first test case, no such index exists.
+
 For the second test case,arr[0]+arr[1]=arr[3] , therefore index  satisfies the given conditions.
