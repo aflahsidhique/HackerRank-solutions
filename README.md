@@ -1,7 +1,7 @@
 # Here is my HackerRank Solutions
 
 >The repository contains the solutions to various HackerRank problems.Organize the solutions so they are easy to navigate and understand. Each solution includes a reference to the problem statement and is well-documented to explain the logic and approach.
-
+## [asas](https://github.com/aflahsidhique/HackerRank-solutions/blob/main/README.md#6mini-max-sum)
 
 ## 1.Apple and Orange
 
