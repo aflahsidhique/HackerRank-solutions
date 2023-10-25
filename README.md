@@ -1,16 +1,6 @@
 # Here is my HackerRank Solutions
 
 >The repository contains the solutions to various HackerRank problems.Organize the solutions so they are easy to navigate and understand. Each solution includes a reference to the problem statement and is well-documented to explain the logic and approach.
-## [1.Apple and Orange](https://github.com/aflahsidhique/HackerRank-solutions/blob/main/README.md#1apple-and-orange)
-## [2.Birthday Cake Candles](https://github.com/aflahsidhique/HackerRank-solutions/blob/main/README.md#2birthday-cake-candles)
-## [3.Compare The Tripplets](https://github.com/aflahsidhique/HackerRank-solutions/blob/main/README.md#3compare-the-tripplets)
-## [4.Diagonal Difference](https://github.com/aflahsidhique/HackerRank-solutions/blob/main/README.md#4diagonal-difference)
-## [5.Grading Students](https://github.com/aflahsidhique/HackerRank-solutions/blob/main/README.md#5grading-students)
-## [6.Mini-Max Sum](https://github.com/aflahsidhique/HackerRank-solutions/blob/main/README.md#6mini-max-sum)
-## [7.Plus Minus](https://github.com/aflahsidhique/HackerRank-solutions/blob/main/README.md#7plus-minus)
-## [8.Simple Array Sum](https://github.com/aflahsidhique/HackerRank-solutions/blob/main/README.md#8simple-sum-array)
-## [9.StairCase](https://github.com/aflahsidhique/HackerRank-solutions/blob/main/README.md#9staircase)
-## [10.Time Conversion](https://github.com/aflahsidhique/HackerRank-solutions/blob/main/README.md#10time-conversion)
 
 ## 1.Apple and Orange
 
