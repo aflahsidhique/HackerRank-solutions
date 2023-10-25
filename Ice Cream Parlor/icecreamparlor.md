@@ -25,13 +25,21 @@ if __name__ == '__main__':
 
 ```
 1.The icecreamParlor function is defined, which takes money and cost as parameters.
+
 2.Inside the function, a dictionary called cost_dict is initialized.
+
 3.The cost list is iterated using the enumerate function.
+
 4.For each iteration, the code checks if the complement cost (money - c) is present in the cost_dict.
+
 5.If it is, the function returns a list containing the indices of the two flavors.
+
 6.If not, the current cost (c) and its index (i) are added to the cost_dict.
+
 7.The main code block checks for the number of test cases (t) and takes input for each test case.
+
 8.The icecreamParlor function is called with the given budget (money) and the list of ice cream flavors' costs (cost).
+
 9.The resulting indices are printed.
 #### Sample input & output
 input
